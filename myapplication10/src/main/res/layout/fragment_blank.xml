@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <View
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        />
+    <TextView
+        android:layout_below="@+id/v"
+        android:id="@+id/tv"
+        android:text="人员：和覅u收到反馈速度垂死的那场肯定就是你。"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>
